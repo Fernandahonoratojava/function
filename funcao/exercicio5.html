@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios</title>
+</head>
+<body>
+    <script>
+        var graus =  converterCelsiusFahrenheit (15,1.8,32);
+        var graus2 =  converterFahrenheitCelsius (59,1.8,32);
+        
+        function  converterCelsiusFahrenheit (celsius,a,b){
+            return (celsius+'°C'+ ' é igual a '+(celsius*a+b))+'°F.'+'<br>';
+        }
+        document.write(graus);
+
+        function  converterFahrenheitCelsius (fahrenheit,a,b){
+            return (fahrenheit+'°F'+ ' é igual a '+(fahrenheit-b)/a)+'°C. <br>';
+        }
+        document.write(graus2);
+
+        var graus3 =  converterCelsiusFahrenheit (20,1.8,32);
+        var graus4 =  converterFahrenheitCelsius (70,1.8,32);
+        
+        function  converterCelsiusFahrenheit (celsius,a,b){
+            return (celsius+'°C'+ ' é igual a '+(celsius*a+b))+'°F.'+'<br>';
+        }
+        document.write(graus3);
+
+        function  converterFahrenheitCelsius (fahrenheit,a,b){
+            return (fahrenheit+'°F'+ ' é igual a '+(fahrenheit-b)/a)+'°C. <br>';
+        }
+        document.write(graus4);
+
+        var graus5 =  converterCelsiusFahrenheit (25,1.8,32);
+        var graus6 =  converterFahrenheitCelsius (80,1.8,32);
+        
+        function  converterCelsiusFahrenheit (celsius,a,b){
+            return (celsius+'°C'+ ' é igual a '+(celsius*a+b))+'°F.'+'<br>';
+        }
+        document.write(graus5);
+
+        function  converterFahrenheitCelsius (fahrenheit,a,b){
+            return (fahrenheit+'°F'+ ' é igual a '+(fahrenheit-b)/a)+'°C. <br>';
+        }
+        document.write(graus6);
+        
+        
+            </script>
+</body>
+</html>
